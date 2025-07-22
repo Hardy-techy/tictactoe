@@ -1,0 +1,43 @@
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Node modules and build output
+node_modules/
+dist/
+dist-ssr/
+build/
+contracts/
+
+# Local environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Supabase secrets/configs (if you ever add them)
+supabase/.env
+supabase/config.toml
+supabase/
+.best/
+
+# Editor/project files
+.vscode/
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS/Editor junk
+Thumbs.db
+
+# Misc
+*.local
